@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>FocusFLow</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <h1><span class="text-color">FocusFlow</span></h1>
+      </div>
+    </nav>
+
+    <!-- Body -->
+    <div class="container">
+      <header>
+        <h1><span class="text-color">FocusFlow</span></h1>
+      </header>
+      <form id="task-form">
+        <div class="form-control">
+          <input
+            type="text"
+            id="task-input"
+            class="form-input"
+            placeholder="Add a task..."
+          />
+          <button type="submit" class="btn">
+            <i class="fa-solid fa-plus"></i> Add Task
+          </button>
+        </div>
+      </form>
+      <ul id="task-list" class="tasks">
+        <!-- <li>
+          Learn JavaScript
+          <button class="remove-task btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li> -->
+      </ul>
+      <button id="clear-tasks" class="btn-clear">Finished All Tasks</button>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-container footer-align">
+        <div class="first-div">
+          <h1>About</h1>
+          <p>
+            A web application where you can be able to track your tasks and also
+            be able to edit and update task.
+          </p>
+        </div>
+        <div>
+          <p>Copyright &copy; 2025, All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
